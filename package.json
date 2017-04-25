@@ -1,0 +1,27 @@
+{
+	"name": "redux shop",
+	"version":"0.0.1",
+	"private": true;
+  	"dependencies": {
+    "bootstrap": "*",
+    "react": "*",
+    "react-dom": "*",
+    "redux": "*",
+    "react-redux": "*"
+  },
+  	"devDependencies": {
+    "gh-pages": "^0.12.0",
+    "react-scripts": "0.9.0"
+  },
+  	"scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
