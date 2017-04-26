@@ -21,7 +21,7 @@ const App = () => {
           </div>
         </div>
         <footer class="container-fluid">
-          <p>1412199</p>
+          <p>Footer</p>
         </footer>
       </div>
     </div>
