@@ -17,7 +17,7 @@ class Product extends Component {
 		return(
 
 			<div className="product thumbnail">
-			<img src={image} alt ="not found" />
+			<img src={image} alt="not found" />
 			<div className="caption">
 			<h3>{name}</h3>
 			<div className="made">Made by {made} </div>

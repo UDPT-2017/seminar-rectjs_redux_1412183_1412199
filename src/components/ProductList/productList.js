@@ -1,5 +1,5 @@
-import React, { ProTypes } from 'react';
-import product from '../../containers/Product';
+import React, { PropTypes } from 'react';
+import Product from '../../containers/Product';
 
 const productList = ({ products }) => {
 	return(
@@ -10,15 +10,15 @@ const productList = ({ products }) => {
 			<ul className="product-list">
 				{products.map(product => (
 					<li key={product.ids} className="product-list_item">
-						<product {...product} />
+						<Product {...product} />
 					</li>
 					))}
 			</ul>
 		</div>
 		);
 }
-productList.proTypes = {
-	products: ProTypes.arrray
+productList.propTypes = {
+	products: PropTypes.arrray
 }
 
 export default productList;
