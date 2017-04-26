@@ -1,6 +1,6 @@
 import React from 'react';
-import cart from '';
-import productList from '';
+import cart from './containers/Cart';
+import productList from './containers/ProductList';
 
 const App = () => {
   return(
