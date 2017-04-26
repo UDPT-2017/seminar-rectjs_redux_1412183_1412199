@@ -1,13 +1,13 @@
 import React, { ProTypes } from 'react';
-import product from '';
+import product from '../../containers/Product';
 
-çonst productList = ({products}) => {
+const productList = ({ products }) => {
 	return(
 		<div>
 			<h3>
 				Product
 			</h3>
-			<ul className="product-list"> 
+			<ul className="product-list">
 				{products.map(product => (
 					<li key={product.ids} className="product-list_item">
 						<product {...product} />
