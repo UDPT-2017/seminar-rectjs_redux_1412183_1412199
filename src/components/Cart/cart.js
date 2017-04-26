@@ -10,8 +10,8 @@ const cart = ({items, total, currency}) => {
 					<div className="panel-body">
 						{ items.length > 0 && (
 							<ul>
-								{items.map(item =>(
-									<li key=item.id>
+								{items.map(item => (
+									<li key= {item.id}>
 										<cartItem {...item} />
 									</li>
 									))}
