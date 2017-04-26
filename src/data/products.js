@@ -6,7 +6,6 @@ const data =[
     price: 3150000,
     currency: 'VND',
     image: './image/01.jpg',
-    url: 'http://www.bongdaso.com'
  	},
   {
  	  id: 2,
@@ -15,7 +14,6 @@ const data =[
     price: 370000,
     currency: 'VND',
     image: './image/02.jpg',
-    url: 'http://www.bongdaso.com'
  	},
   {
  	  id: 3,
@@ -24,7 +22,6 @@ const data =[
     price: 1750000,
     currency: 'VND',
     image: './image/03.jpg',
-    url: 'http://www.bongdaso.com'
  	},
   {
  	  id: 4,
@@ -33,7 +30,6 @@ const data =[
     price:  1210000,
     currency: 'VND',
     image: './image/04.jpg',
-    url: 'http://www.bongdaso.com'
  	},
   {
  	  id: 5,
@@ -42,7 +38,6 @@ const data =[
     price: 5500000,
     currency: 'VND',
     image: './image/05.jpg',
-    url: 'http://www.bongdaso.com'
  	},
  ]
 
