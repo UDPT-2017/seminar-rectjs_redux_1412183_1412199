@@ -9,4 +9,4 @@ const data =
  	},
  ]
 
- export default dat;
+ export default data;
