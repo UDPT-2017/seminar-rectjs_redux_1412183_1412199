@@ -5,7 +5,7 @@ const CART_REMOVE = 'cart/REMOVE';
 
 const initialState = {
   items: [],
-  currency: 'EUR'
+  currency: 'VND'
 };
 
 export default function cart(state = initialState, action = {}) {
@@ -41,7 +41,6 @@ export function addToCart(productId) {
     }
   }
 }
-
 export function removeFromCart(productId) {
   return {
     typr: CART_REMOVE,
