@@ -2,13 +2,13 @@ import React from 'react';
 import cart from '';
 import productList from '';
 
-const app = () => {
+const App = () => {
   return(
     <div>
       <div className="jumbotron">
         <div className="container text-center">
           <h1>Redux Shopping Cart</h1>
-          <p>...</p>
+          <p>Hplus</p>
         </div>
       </div>
       <div className="container">
@@ -18,12 +18,14 @@ const app = () => {
           </div>
           <div className="col-md-4">
             <cart />
+          </div>
         </div>
+        <footer class="container-fluid">
+          <p>1412199</p>
+        </footer>
       </div>
-    <footer class="container-fluid">
-      <p>...</p>
-    </footer>
     </div>
   );
 }
+
 export default App;
