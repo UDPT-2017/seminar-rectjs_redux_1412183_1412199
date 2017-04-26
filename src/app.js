@@ -20,10 +20,9 @@ const App = () => {
             <cart />
           </div>
         </div>
-        <footer class="container-fluid">
-          <p>Footer</p>
-        </footer>
-      </div>
+          <footer className="container-fluid">
+            <p>Footer</p>
+          </footer>
     </div>
   );
 }
