@@ -4,7 +4,7 @@
 
 Thành viên:
 * [X] **1412183** Phạm Quốc Hoàng (phamquochoang)
-* [X] **1412199** Hà Ngọc Huy (tên tài khoản github)
+* [X] **1412199** Hà Ngọc Huy (1412199)
 
 URL: **Link github page**
 
