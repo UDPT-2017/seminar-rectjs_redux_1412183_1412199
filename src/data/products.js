@@ -5,7 +5,7 @@ const data =[
     made: 'Scotland',
     price: 3150000,
     currency: 'VND',
-    image: './image/01.jpg',
+    image: '/image/01.jpg'
  	},
   {
  	  id: 2,
@@ -13,7 +13,7 @@ const data =[
     made: 'Scotland',
     price: 370000,
     currency: 'VND',
-    image: './image/02.jpg',
+    image: '/image/02.jpg'
  	},
   {
  	  id: 3,
@@ -21,7 +21,7 @@ const data =[
     made: 'Scotland',
     price: 1750000,
     currency: 'VND',
-    image: './image/03.jpg',
+    image: '/image/03.jpg'
  	},
   {
  	  id: 4,
@@ -29,7 +29,7 @@ const data =[
     made: 'Scotland',
     price:  1210000,
     currency: 'VND',
-    image: './image/04.jpg',
+    image: '/image/04.jpg'
  	},
   {
  	  id: 5,
@@ -37,8 +37,8 @@ const data =[
     made: 'Scotland',
     price: 5500000,
     currency: 'VND',
-    image: './image/05.jpg',
- 	},
+    image: '/image/05.jpg'
+ 	}
  ]
 
  export default data;
