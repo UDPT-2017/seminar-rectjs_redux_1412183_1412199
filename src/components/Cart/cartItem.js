@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 
-const cartItem =({name, price, currency}) => {
+const CartItem =({name, price, currency}) => {
 	return (
 
 		<div className="cart-item">
@@ -10,10 +10,10 @@ const cartItem =({name, price, currency}) => {
 		);
 }
 
-cartItem.propTypes = {
+CartItem.propTypes = {
 	name: PropTypes.string.isRequired,
 	price: PropTypes.number.isRequired,
 	currency: PropTypes.string.isRequired
 }
 
-export default cartItem;
+export default CartItem;

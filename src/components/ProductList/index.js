@@ -1,4 +1,4 @@
-import productList from './productList';
-import './productList.css';
+import ProductList from './ProductList';
+import './ProductList.css';
 
-export default productList;
+export default ProductList;

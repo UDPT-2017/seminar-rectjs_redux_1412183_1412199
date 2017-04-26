@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import Product from '../../containers/Product';
 
-const productList = ({ products }) => {
+const ProductList = ({ products }) => {
 	return(
 		<div>
 			<h3>
@@ -17,8 +17,8 @@ const productList = ({ products }) => {
 		</div>
 		);
 }
-productList.propTypes = {
+ProductList.propTypes = {
 	products: PropTypes.arrray
 }
 
-export default productList;
+export default ProductList;

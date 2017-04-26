@@ -1,7 +1,7 @@
 import React, { PropTypes} from 'react';
-import cartItem from './cartItem';
+import cartItem from './CartItem';
 
-const cart = ({items, total, currency}) => {
+const Cart = ({items, total, currency}) => {
 	return(
 		<div>
 			<h3>Shopping Cart</h3>
@@ -12,7 +12,7 @@ const cart = ({items, total, currency}) => {
 							<ul>
 								{items.map(item => (
 									<li key={item.id}>
-										<cartItem {...item} />
+										<CartItem {...item} />
 									</li>
 									))}
 							</ul>
@@ -28,9 +28,9 @@ const cart = ({items, total, currency}) => {
 		);
 }
 
-cart.proptypes = {
+Cart.proptypes = {
 	items: PropTypes.array,
 	total: PropTypes.number,
 	currency: PropTypes.string
 }
-export default cart;
+export default Cart;
