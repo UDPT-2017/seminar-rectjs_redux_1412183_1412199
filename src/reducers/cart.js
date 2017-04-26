@@ -11,11 +11,11 @@ const initialState = {
 export default function cart(state = initialState, action = {}) {
   switch (action.type) {
     case CART_ADD:
-      return handleCartAdd(state, action.payload);
+    return handleCartAdd(state, action.payload);
     case CART_REMOVE:
-      return handleCartRemove(state, action.payload);
+    return handleCartRemove(state, action.payload);
     default:
-      return state;
+    return state;
   }
 }
 
@@ -43,7 +43,7 @@ export function addToCart(productId) {
 }
 export function removeFromCart(productId) {
   return {
-    typr: CART_REMOVE,
+    type: CART_REMOVE,
     payload: {
       productId
     }
@@ -55,11 +55,11 @@ export function isInCart(state, props) {
 }
 
 export function getItems(state, props) {
-  return state.cart.items.map(id => getProduct(state, {id}));
+  return state.cart.items.map(id => getProduct(state, { id }));
 }
 
 export function getCurrency(state, props) {
-  return state.caet.currency;
+  return state.cart.currency;
 }
 
 export function getTotal(state, props) {
