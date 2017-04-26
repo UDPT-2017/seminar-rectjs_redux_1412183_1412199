@@ -1,18 +1,21 @@
 {
-	"name": "redux_shop",
-	"version":"0.0.1",
-	"private": true,
-  	"dependencies": {
+	  "name": "redux_shop",
+	  "version":"0.0.1",
+	  "private": true,
+    "dependencies": {
+
     "bootstrap": "*",
     "react": "*",
     "react-dom": "*",
     "redux": "*",
     "react-redux": "*"
   },
-  	"devDependencies": {
+
+    "devDependencies": {
     "gh-pages": "*",
     "react-scripts": "*"
   },
+
   	"scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -21,7 +24,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "eslintConfig": {
+    "eslintConfig": {
     "extends": "react-app"
   }
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/UDPT-2017/seminar-rectjs_redux_1412183_1412199.git"
+  },
 }
