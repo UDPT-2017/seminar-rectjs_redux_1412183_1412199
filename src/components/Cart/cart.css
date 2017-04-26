@@ -1,0 +1,22 @@
+.cart ul{
+	margin-bottom: 0.7em;
+}
+
+.cart-item{
+	margin-bottom: 0.3em;
+}
+
+.cart-item_name {
+	display: inline-block;
+}
+
+.cart-item_price {
+	float:  right
+}
+
+.cart-total{
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 1.1em;
+	text-align:  right;
+}
