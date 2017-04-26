@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
 import ProductList from '../compoments/ProductList';
-import {getProducts} from '../ducks/products';
+import {getProducts} from '../reducers/products';
 
 const mapStateToProps = (state, props) => {
   return {

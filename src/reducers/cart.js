@@ -1,4 +1,4 @@
-import {getProduct} from '../ducks/products';
+import {getProduct} from '../reducers/products';
 
 const CART_ADD = 'cart/ADD';
 const CART_REMOVE = 'cart/REMOVE';
