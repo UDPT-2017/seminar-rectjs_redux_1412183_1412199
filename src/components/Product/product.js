@@ -13,12 +13,13 @@ class Product extends Component {
 		}
 	}
 	render() {
-		const {name, price, currency, image, isInCart} = this.props;
+		const {name, made, price, currency, image, isInCart} = this.props;
 		return(
 
 			<div className="product thumbnail">
 				<img src={image} alt ="not found" />
 				<div className="caption">
+					<div className="made">Made in {made} </div>
 					<div className="product_price">{price} {currency}
 					</div>
 					<div className="product_button-wrap">
