@@ -1,13 +1,13 @@
 .product {
-	margin:  0;
-	overflow: auto;
+    margin: 0;
+    overflow: auto;
 }
 
-.product_price{
-	display: inline-block;
-	line-height: 34px;
+.product__price {
+    display: inline-block;
+    line-height: 34px;
 }
 
-.product_button-wrap{
-	float: right;
+.product__button-wrap {
+    float: right;
 }

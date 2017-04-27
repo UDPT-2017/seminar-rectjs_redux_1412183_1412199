@@ -21,7 +21,7 @@ class Product extends Component {
 			<img src={image} alt="not found" />
 			<div className="caption">
 			<h3>{name}</h3>
-			<div className="made">Made by {made} </div>
+			<div className="product_made_by">Made by {made} </div>
 			<div className="product_price">{price} {currency}
 			</div>
 			<div className="product_button-wrap">

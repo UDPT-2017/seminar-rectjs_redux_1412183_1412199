@@ -8,7 +8,6 @@ import App from './App';
 import productsData from './data/products';
 import 'bootstrap/dist/css/bootstrap.css';
 
-
 const rootReducer = combineReducers({
     cart: cartReducer,
     products: productsReducer
@@ -17,9 +16,9 @@ const rootReducer = combineReducers({
 let store = createStore(
     rootReducer,
     {
-        products: productsData // initial store values
+        products: productsData
     },
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__() // for debugging
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 
 render(

@@ -1,33 +1,29 @@
 import React from 'react';
-import cart from './containers/Cart';
-import productList from './containers/ProductList';
+import Cart from './containers/Cart';
+import ProductList from './containers/ProductList';
 
 const App = () => {
-  return(
-    <div className="container-fluid">
-      <div className="jumbotron">
-        <div className="container text-center">
-          <h1>Redux Shopping Cart</h1>
-          <p>Hplus</p>
+    return (
+        <div className="container">
+            <div className="row">
+                <div className="col-md-12">
+                    <h1>Redux Shopping Cart</h1>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-md-8">
+                    <ProductList />
+                </div>
+                <div className="col-md-4">
+                    <Cart />
+                </div>
+            </div>
+
+            <footer>
+              <p>footer p1</p>
+            </footer>
         </div>
-      </div>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-8">
-            <productList />
-          </div>
-          <div className="col-md-4">
-            <cart />
-          </div>
-        </div>
-      </div>
-      <div className="container-fluid">
-        <footer >
-          <p>Footer</p>
-        </footer>
-      </div>
-    </div>
-  );
+    );
 }
 
 export default App;
