@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const ProductList = ({ products }) => {
     return (
         <div>
-            <h3>Products</h3>
+            <h2>Products</h2>
             <ul className="product-list">
               {products.map(product => (
                   <li key={product.id} className="product-list__item">

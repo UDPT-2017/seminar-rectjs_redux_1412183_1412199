@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { combineReducers, createStore } from 'redux';
 import cartReducer from './reducers/cart';
 import productsReducer from './reducers/products';
-import App from './App';
+import App from './app';
 import productsData from './data/products';
 import 'bootstrap/dist/css/bootstrap.css';
 

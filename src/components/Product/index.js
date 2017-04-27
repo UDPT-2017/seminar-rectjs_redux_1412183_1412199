@@ -1,4 +1,4 @@
-import Product from './Product';
-import './Product.css';
+import Product from './product';
+import './product.css';
 
 export default Product;

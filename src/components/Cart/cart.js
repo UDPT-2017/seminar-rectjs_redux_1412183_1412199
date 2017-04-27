@@ -1,11 +1,11 @@
 // import React, { PropTypes} from 'react';
 import React from 'react';
-import CartItem from './CartItem';
+import CartItem from './cartItem';
 import PropTypes from 'prop-types';
 const Cart = ({ items, total, currency }) => {
     return (
         <div>
-            <h3>Shopping Cart</h3>
+            <h2>Shopping Cart</h2>
 
             <div className="cart">
                 <div className="panel panel-default">
@@ -22,7 +22,7 @@ const Cart = ({ items, total, currency }) => {
                         {items.length === 0 && (
                             <div className="alert alert-info">Cart is empty</div>
                         )}
-                        <div className="cart__total">Total: {total} {currency}</div>
+                        <h4> <b> Total: {total} {currency} </b></h4>
                     </div>
                 </div>
             </div>

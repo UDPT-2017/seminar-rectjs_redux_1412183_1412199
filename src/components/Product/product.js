@@ -20,13 +20,13 @@ class Product extends Component {
 			<div className="product thumbnail">
 			<img src={image} alt="not found" />
 			<div className="caption">
-			<h3>{name}</h3>
+			<h4>{name}</h4>
 			<div className="product_made_by">Made by {made} </div>
 			<div className="product_price">{price} {currency}
 			</div>
 			<div className="product_button-wrap">
 			<button className={isInCart ? 'btn btn-danger' : 'btn btn-primary'} onClick={this.handleClick}>
-			{isInCart ? 'Remove' : 'add to Cart'}
+			{isInCart ? 'Remove' : 'Add to Cart'}
 			</button>
 			</div>
 			</div>
