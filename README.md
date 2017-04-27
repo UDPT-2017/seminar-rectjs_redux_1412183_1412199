@@ -6,8 +6,7 @@ Thành viên:
 * [X] **1412183** Phạm Quốc Hoàng (phamquochoang)
 * [X] **1412199** Hà Ngọc Huy (1412199)
 
-URL: **phamquochoang.github.io**
-
+URL: ** http://phamquochoang.github.io**
 ## Yêu cầu
 
 Sinh viên check vào các mục bên dưới và ghi mã sinh viên đã làm vào chức năng theo mẫu. Mục nào ko có MSSV là tính điểm theo nhóm. Cần sắp xếp các chức năng bên dưới theo thứ tự MSSV đã thực hiện.
