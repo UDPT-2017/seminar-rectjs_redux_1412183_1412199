@@ -1,6 +1,6 @@
-# Seminar-UDPT - *Tên đề tài*
+# Seminar-UDPT - *reactjs redux*
 
-**Tên đề tài** là một repository trong đề tài tìm hiểu của lớp Ứng dụng phân tán.
+**redux shopping cart**
 
 Thành viên:
 * [X] **1412183** Phạm Quốc Hoàng (phamquochoang)
@@ -20,15 +20,15 @@ Yêu cầu **GIT**
 
 Yêu cầu **bắt buộc**
 * [X] Source code demo
-* [ ] Slide thuyết trình
-* [ ] Tạo github page để viết lại báo cáo cho nội dung đề tài tìm hiểu
+* [X] Slide thuyết trình
+* [X] Tạo github page để viết lại báo cáo cho nội dung đề tài tìm hiểu
 
 Các **nội dung lý thuyết** dự định tìm hiểu. Nhóm liệt kê các nội dung đã làm được vào bên dưới và check vào các nội dung đã tìm hiểu được.
 * [ ] Nội dung 1
 * [ ] Nội dung 2
 
 Các **chức năng của demo** đã thực hiện hoặc dự kiến thực hiện. Nhóm check vào các chức năng đã làm
-* [ ] Chức năng 1
+* [ ] Chức năng 1:
 * [ ] Chức năng 2
 
 ## Demo
