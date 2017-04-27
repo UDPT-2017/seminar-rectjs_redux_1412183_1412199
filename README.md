@@ -23,16 +23,15 @@ Yêu cầu **bắt buộc**
 * [X] Tạo github page để viết lại báo cáo cho nội dung đề tài tìm hiểu
 
 Các **nội dung lý thuyết** dự định tìm hiểu. Nhóm liệt kê các nội dung đã làm được vào bên dưới và check vào các nội dung đã tìm hiểu được.
-* [X] Reactjs
-** [X] Components
-** [X] Props
-** [X] Specs, Lifecycle & State
-** [X] Events
-** [X] Unidirectional data flow
+* [X] Components
+* [X] Props
+* [X] Specs, Lifecycle & State
+* [X] Events
+* [X] Unidirectional data flow
 * [X] Redux
-** [X] Stores
-** [X] Actions
-** [X] Reducer
+* [X] Stores
+* [X] Actions
+* [X] Reducer
 Các **shopping cart** đã thực hiện hoặc dự kiến thực hiện. Nhóm check vào các chức năng đã làm
 * [X] Hiển thị danh sách sản phẩm
 * [X] Đưa sản phẩm vào giỏ hàng
