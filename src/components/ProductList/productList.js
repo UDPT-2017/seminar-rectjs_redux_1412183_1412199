@@ -1,6 +1,7 @@
-import React, { PropTypes } from 'react';
+// import React, { PropTypes } from 'react';
+import React from 'react';
 import Product from '../../containers/Product';
-
+import PropTypes from 'prop-types';
 const ProductList = ({ products }) => {
 	return(
 		<div>

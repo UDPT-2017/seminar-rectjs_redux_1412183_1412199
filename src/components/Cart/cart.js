@@ -1,6 +1,7 @@
-import React, { PropTypes} from 'react';
-import cartItem from './CartItem';
-
+// import React, { PropTypes} from 'react';
+import React from 'react';
+import CartItem from './CartItem';
+import PropTypes from 'prop-types';
 const Cart = ({items, total, currency}) => {
 	return(
 		<div>
@@ -28,7 +29,7 @@ const Cart = ({items, total, currency}) => {
 		);
 }
 
-Cart.proptypes = {
+Cart.propTypes = {
 	items: PropTypes.array,
 	total: PropTypes.number,
 	currency: PropTypes.string

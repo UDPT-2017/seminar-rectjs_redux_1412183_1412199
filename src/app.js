@@ -4,7 +4,7 @@ import productList from './containers/ProductList';
 
 const App = () => {
   return(
-    <div>
+    <div className="container-fluid">
       <div className="jumbotron">
         <div className="container text-center">
           <h1>Redux Shopping Cart</h1>
@@ -21,7 +21,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div class="container-fluid">
+      <div className="container-fluid">
         <footer >
           <p>Footer</p>
         </footer>

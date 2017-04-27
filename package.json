@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "bootstrap": "*",
+    "prop-types": "^15.5.8",
     "react": "*",
     "react-dom": "*",
     "react-redux": "*",

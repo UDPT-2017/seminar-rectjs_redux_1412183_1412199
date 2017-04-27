@@ -1,5 +1,6 @@
-import React, { Component, PropTypes} from 'react';
-
+// import React, { Component, PropTypes} from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 class Product extends Component {
 	handleClick = () => {
 		const {id, addToCart, removeFromCart, isInCart} = this.props;
@@ -33,7 +34,7 @@ class Product extends Component {
 		);
 	}
 }
-Product.proptypes = {
+Product.propTypes = {
 	id: PropTypes.number.isRequired,
 	name: PropTypes.string.isRequired,
 	price: PropTypes.number,
