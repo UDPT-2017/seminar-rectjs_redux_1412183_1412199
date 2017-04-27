@@ -28,14 +28,14 @@ Các **nội dung lý thuyết** dự định tìm hiểu. Nhóm liệt kê các
 * [X] Specs, Lifecycle & State
 * [X] Events
 * [X] Unidirectional data flow
-* [X] Redux
 * [X] Stores
 * [X] Actions
 * [X] Reducer
+
 Các **shopping cart** đã thực hiện hoặc dự kiến thực hiện. Nhóm check vào các chức năng đã làm
 * [X] Hiển thị danh sách sản phẩm
 * [X] Đưa sản phẩm vào giỏ hàng
-
+* [X] Loại sản phẩm khỏi giỏ hàng
 ## Demo
 
 Link ảnh GIF demo ứng dụng:
